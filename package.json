@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "re_movieql",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "repository": "https://github.com/ryong9rrr/re_movieql",
+  "author": "ryong9rrr",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.5",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
+}
